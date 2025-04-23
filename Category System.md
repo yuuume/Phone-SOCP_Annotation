@@ -3,7 +3,7 @@
 <br>
 实体标签可以是整部手机（例如 Apple iPhone 15）、手机的有形部分（例如屏幕）或抽象部分（例如分辨率），也可以是制造公司（例如 Apple）以及其提供的服务（例如售前及售后客户支持）。
 属性标签表示与每个实体标签相关的特定的质量或特征。
-下表分别展示了 16 个预定义的实体标签与 8 个预定义的属性标签，以及它们的描述。
+下面表格展示了 16 个预定义的实体标签与 8 个预定义的属性标签，以及它们的描述。
 <br>
 The category defines the type of aspect involved in the opinion expressed in the review. 
 We adapt the aspect category system from SemEval-2015 Task 12 for laptops \cite{pontiki-etal-2015-semeval} to the smartphone domain.
@@ -13,7 +13,7 @@ Each unique pair of an entity and an attribute label defines an **Aspect Categor
 An entity label can refer to the whole phone (e.g. Apple iPhone 15), its tangible components (e.g. screen) and abstract parts (e.g. resolution), 
 the manufacturing company (e.g. Apple) or the services it provides (e.g. pre- and after-sales customer support). 
 An attribute label denotes the specific qualities or characteristics associated with each entity label. 
-Table~\ref{tab:entity_label} and table~\ref{tab:attribute_label} respectively show 16 predefined entity labels and 8 predefined attribute labels, along with their descriptions.
+The following tables respectively show 16 predefined entity labels and 8 predefined attribute labels, along with their descriptions.
 <br>
 Entity Label(16) | Description
 ----| ----
@@ -33,4 +33,16 @@ OS | Operating systems and their functions.
 APP | Software applications, such as preinstalled apps (memos, settings, browser, etc.).
 SERVICE | Pre- and post-sales customer support, customer service, repair services, product support, replacement policies and staff.
 BRAND | Brands and Companies.
+
+Attribute Label(8) | Description
+----| ----
+GENERAL | A general opinion about the entity as a whole (e.g., cell phone, screen) without focusing on any specific attributes.
+PRICE | Price (cheap or expensive), value for money and cost of services provided by the manufacturer.
+QUALITY | Precision in the construction and design of the product, durability and reliability under normal conditions of use.
+PERFORMANCE | The operational efficiency and handling capacity of a product, especially under high loads or specific operating conditions.
+USABILITY | Ease or convenience of use, learning, (un)installing, handling, operating, setting, navigating, updating, configuring, touching, etc., the experience of use as well as evaluating upgradability, compatibility, and ergonomics (focusing on the software features of the phone).
+DESIGN | Appearance (shape, color, appearance), dimensions, weight, quantity, and ergonomics (focusing on the structural design of the phone), placement of components, software design, and warranty duration and terms/conditions.
+FEATURES | (additional or missing) functions or components, innovations in technology, additional capabilities.
+CONNECTIVITY | The ability or ease with which communication connections, charging connections, and physical interfaces can be connected to peripheral devices.
+
 
