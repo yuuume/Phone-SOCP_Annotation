@@ -17,3 +17,20 @@ Table~\ref{tab:entity_label} and table~\ref{tab:attribute_label} respectively sh
 <br>
 Entity Label(16) | Description
 ----| ----
+PHONE | Phone as a whole.
+DISPLAY | Display screen, external screen, internal screen, etc.
+PROCESSOR | CPU.
+MEMORY&STORAGE | Running memory and storage space.
+CAMERA | Camera, front camera, rear camera, etc.
+BATTERY&POWER | Battery and power supply (charger, charging cable).
+COMMUNICATION | Internet connectivity (4G, 5G), Wi-Fi, Bluetooth, etc.
+COOLING | Fans, cooling systems, radiators, etc.
+AUDIO DEVICES | Sound, speakers, headphones, vibration motors, etc.
+PHYSICAL INTERFACE | SIM card slot, physical buttons (power button, volume buttons), ports (Type-C port, Lightning port), and more.
+ACCESSORY | Cell phone case, cell phone film, matching earphone, stylus and so on.
+HARDWARE | Overall hardware configuration.
+OS | Operating systems and their functions.
+APP | Software applications, such as preinstalled apps (memos, settings, browser, etc.).
+SERVICE | Pre- and post-sales customer support, customer service, repair services, product support, replacement policies and staff.
+BRAND | Brands and Companies.
+
