@@ -42,4 +42,4 @@ Human | {A review text}
 After extracting the comparison quaternions, the next phase involves categorizing the aspect element into predefined categories. 
 The following figure shows the prompt of Aspect Category Classification.
 <br>
-
+![image](/image/prompt_category_classification.png)
