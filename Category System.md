@@ -10,10 +10,12 @@ We adapt the aspect category system from SemEval-2015 Task 12 for laptops \cite{
 The category system comprises two primary types of labels: \textbf{Entity Labels} and \textbf{Attribute Labels}. 
 Each unique pair of an entity and an attribute label defines an **Aspect Category Label**.
 <br>
+<br>
 An entity label can refer to the whole phone (e.g. Apple iPhone 15), its tangible components (e.g. screen) and abstract parts (e.g. resolution), 
 the manufacturing company (e.g. Apple) or the services it provides (e.g. pre- and after-sales customer support). 
 An attribute label denotes the specific qualities or characteristics associated with each entity label. 
 The following tables respectively show 16 predefined entity labels and 8 predefined attribute labels, along with their descriptions.
+<br>
 <br>
 Entity Label(16) | Description
 ----| ----
