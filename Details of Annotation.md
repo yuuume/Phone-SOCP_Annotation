@@ -52,5 +52,4 @@ Given a review and a list of comparative aspects, please determine the category 
 Review: “\{review text\}”. 
 Aspect: \{the list of aspects\}.
 Output:
-![image](https://github.com/user-attachments/assets/b4c6d75e-04b4-4b25-9c30-402296628ed8)
 
