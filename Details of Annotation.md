@@ -43,4 +43,4 @@ After extracting the comparison quaternions, the next phase involves categorizin
 The following figure shows the prompt of Aspect Category Classification.
 <br>
 <br>
-![image](/Phone-SOCP_Annotation/image/prompt_category_classification.png)
+![image](https://github.com/Phone-SOCP_Annotation/image/prompt_category_classification.png)
