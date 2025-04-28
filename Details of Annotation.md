@@ -40,16 +40,13 @@ Human | {A review text}
 ## Aspect Category Classification
 
 After extracting the comparison quaternions, the next phase involves categorizing the aspect element into predefined categories. 
-The prompt of Aspect Category Classification is shown below.
+The prompt of Aspect Category Classification is shown below:
 <br>
 <br>
-In ABSA tasks within the mobile phone domain, the aspect category is defined by concatenating Entity and Attribute in the format Entity#Attribute. 
- 
-Entity must be selected from the list: {the list of predefined entity labels}, and Attribute must be chosen from the list: {the list of predefined attribute labels}.
- 
-Given a review and a list of comparative aspects, please determine the category for each aspect in the list. Output a list (e.g., \[Entity\#Attribute\]) without any explanation. 
- 
-Review: “\{review text\}”. 
-Aspect: \{the list of aspects\}.
+In ABSA tasks within the mobile phone domain, the aspect category is defined by concatenating Entity and Attribute in the format Entity#Attribute. <br>
+Entity must be selected from the list: {the list of predefined entity labels}, and Attribute must be chosen from the list: {the list of predefined attribute labels}.<br>
+Given a review and a list of comparative aspects, please determine the category for each aspect in the list. Output a list (e.g., \[Entity\#Attribute\]) without any explanation. <br>
+Review: “\{review text\}”. <br>
+Aspect: \{the list of aspects\}.<br>
 Output:
 
