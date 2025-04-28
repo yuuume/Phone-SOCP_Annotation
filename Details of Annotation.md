@@ -5,7 +5,7 @@
 我们首先选取比较评论，指导 LLM 逐步提取比较主体、比较客体、比较方面以及比较偏好。
 随后，我们将这一指导过程作为历史信息提供给 LLM，使它具备识别比较要素的能力。在拥有历史标注作为上下文的情况下，我们只需输入新的评论文本，LLM 便能直接提取其中的比较要素。下表展示了这一指导流程。
 
-在提取完比较四元组之后，下一阶段是将其中的方面元素分类到预先定义的类别。下图展示了方面类别分类的提示。
+在提取完比较四元组之后，下一阶段是将其中的方面元素分类到预先定义的类别。下面展示了方面类别分类的提示。
 -->
 
 
@@ -40,7 +40,17 @@ Human | {A review text}
 ## Aspect Category Classification
 
 After extracting the comparison quaternions, the next phase involves categorizing the aspect element into predefined categories. 
-The following figure shows the prompt of Aspect Category Classification.
+The prompt of Aspect Category Classification is shown below.
 <br>
 <br>
-![image](https://github.com/yuuume/Phone-SOCP_Annotation/blob/main/image/prompt_category_classification.png)
+In ABSA tasks within the mobile phone domain, the aspect category is defined by concatenating Entity and Attribute in the format Entity#Attribute. 
+ 
+Entity must be selected from the list: {the list of predefined entity labels}, and Attribute must be chosen from the list: {the list of predefined attribute labels}.
+ 
+Given a review and a list of comparative aspects, please determine the category for each aspect in the list. Output a list (e.g., \[Entity\#Attribute\]) without any explanation. 
+ 
+Review: “\{review text\}”. 
+Aspect: \{the list of aspects\}.
+Output:
+![image](https://github.com/user-attachments/assets/b4c6d75e-04b4-4b25-9c30-402296628ed8)
+
