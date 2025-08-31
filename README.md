@@ -5,5 +5,7 @@
 
 -->
 The 50 samples of Phone-SOCP are provided in "data/sample_50.json". The full dataset and code will be released after acceptance.
+
 The complete code is located in the "code" folder.
+
 The complete category system for smartphones is described in "Category System.md". More details on the annotation of the Phone-SOCP dataset are available in "Details of Annotation.md".
